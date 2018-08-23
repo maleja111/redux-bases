@@ -1,0 +1,32 @@
+<div class="slide-container">
+    <div class="wrapper">
+        <div class="clash-card archer">
+            <div class="clash-card__image clash-card__image--archer">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/archer.png" alt="archer" />
+            </div>
+            <div class="show-details">
+                <label>
+                    <input class="form-check-input" type="checkbox" (change)="checkChanged($event.target.checked)" [checked]="displayDetails"> Display Charter Details
+                </label>
+            </div>
+            <!-- displayDetails: {{displayDetails}} details: {{details | json}} -->
+            <div class="clash-card-check" *ngIf="displayDetails && details">
+                <div class="clash-card__level clash-card__level--archer">{{details.level}}</div>
+                <div class="clash-card__unit-name">{{details.name}}</div>
+                <div class="clash-card__unit-description">{{details.description}}</div>
+
+                <div class="clash-card__unit-stats clash-card__unit-stats--archer clearfix">
+                    <div class="one-third" *ngFor="let stat of details.stat">
+                        <div class="stat">{{stat.stat}}</div>
+                        <div class="stat-value">{{stat.value}}</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- end clash-card archer-->
+    </div>
+    <!-- end wrapper -->
+
+</div>
+<!-- end container -->
