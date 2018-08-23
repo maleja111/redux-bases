@@ -20,4 +20,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Pluralsight.com Angular NgRx: Getting Started: `http://bit.ly/AngularNgRx`.
 @DeborahK and @duncanhunter
 
-This course is based on the previous material
+This demo is based on the previous material
