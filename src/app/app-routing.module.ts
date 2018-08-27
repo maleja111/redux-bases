@@ -5,7 +5,7 @@ import { CardsComponent } from './cards/cards.component';
 
 const appRoutes: Routes = [
   {
-    path: 'cards',
+    path: '',
     loadChildren: './cards/cards.module#CardsModule',
   }
 ];
