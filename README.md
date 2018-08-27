@@ -21,3 +21,8 @@ Pluralsight.com Angular NgRx: Getting Started: `http://bit.ly/AngularNgRx`.
 @DeborahK and @duncanhunter
 
 This demo is based on the previous material
+
+
+## Demo [LIVE](https://redux-bases.now.sh/)
+
+## [Slide](https://ngrx-redux-bases.now.sh/)
